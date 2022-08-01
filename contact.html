@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="formulario" />
+        <title>Monarca Artist Web Page Form</title>
+        <link rel="icon" type="image/x-icon" href="assets/iconblack.png" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Uchen&display=swap" rel="stylesheet">
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link rel="stylesheet" type="text/css" href="css/styles.css"  />
+</head>
+<body>
+         <section class="signup-section" id="signup">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-md-10 col-lg-8 mx-auto text-center">
+                        <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+                        <h2 class="text-white mb-5">LLene su formulario aquí:</h2>
+                        <!-- * * * * * * * * * * * * * * *-->
+                        <!-- * * SB Forms Contact Form * *-->
+                        <!-- * * * * * * * * * * * * * * *-->
+                        <!-- This form is pre-integrated with SB Forms.-->
+                        <!-- To make this form functional, sign up at-->
+                        <!-- https://startbootstrap.com/solution/contact-forms-->
+                        <!-- to get an API token!-->
+                        <form class="form-signup" id="contactForm" data-sb-form-api-token="API_TOKEN">
+                            <!-- Email address input-->
+                            <div class="row input-group-newsletter">
+                                <div class="col"><input class="form-control" id="name" type="name" placeholder="Nombre" aria-label="Nombre" data-sb-validations="required,name" /></div>
+                                <div class="col"><input class="form-control" id="tel" type="tel" placeholder="Número de teléfono" aria-label="Número de teléfono" data-sb-validations="required,tel" /></div>
+                                </div>
+                            <div class="row input-group-newsletter">
+                                
+                                <div class="col"><input class="form-control" id="email" type="email" placeholder="Correo Electrónico" aria-label="Correo Electrónico" data-sb-validations="required,tel" /></div>
+                                </div>    
+
+                            <div class="row input-group-newsletter">
+                                
+                                <div class="col"><input class="form-control" id="text" type="text" placeholder="Ingrese aquí los detalles de su solicitud" aria-label="Ingrese aquí los detalles de su solicitud" data-sb-validations="required,tel" /></div>
+                                </div>       
+                           
+                            <div class="col-auto"><button class="btn btn-primary disabled" id="submitButton" type="submit">Enviar</button></div>
+                            
+                            <!-- Submit success message-->
+                            <!---->
+                            <!-- This is what your users will see when the form-->
+                            <!-- has successfully submitted-->
+                            <div class="d-none" id="submitSuccessMessage">
+                                <div class="text-center mb-3 mt-2 text-white">
+                                    <div class="fw-bolder">Form submission successful!</div>
+                                    To activate this form, sign up at
+                                    <br />
+                                    <a href="contact.html">ContactForm</a>
+                                </div>
+                            </div>
+                            <!-- Submit error message-->
+                            <!---->
+                            <!-- This is what your users will see when there is-->
+                            <!-- an error submitting the form-->
+                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3 mt-2">Error sending message!</div></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+</body>
+</html>
